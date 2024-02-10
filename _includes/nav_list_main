@@ -30,27 +30,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Cpp Network" %}
-                        <li><a href="/categories/cpp-network" class="">C++ Boost.Asio 네트워크 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "C Sharp" %}
-                        <li><a href="/categories/csharp" class="">C # ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "C" %}
-                        <li><a href="/categories/c" class="">C ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
 
         <span class="nav__sub-title">Coding Test</span>
             <ul>
@@ -185,27 +164,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "DataStructure" %}
-                        <li><a href="/categories/data-structure" class="">C 자료구조 강의 1({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "DataStructure2" %}
-                        <li><a href="/categories/data-structure2" class="">C 자료구조 강의 2({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Network" %}
-                        <li><a href="/categories/network" class="">네트워크 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
         <span class="nav__sub-title">Server</span>
             <ul>
                 {% for category in site.categories %}
@@ -214,29 +172,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">DB</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "DB" %}
-                        <li><a href="/categories/db" class="">MySQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Programmers SQL" %}
-                        <li><a href="/categories/programmers-sql" class="">프로그래머스 SQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+       
         <span class="nav__sub-title">etc</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog Dev ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Design Pattern" %}
@@ -255,20 +192,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Git" %}
                         <li><a href="/categories/git" class="">Git & Github ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "VS" %}
-                        <li><a href="/categories/vs" class="">비주얼 스튜디오 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Bitcoin" %}
-                        <li><a href="/categories/bitcoin" class="">블록체인 암호화폐 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
